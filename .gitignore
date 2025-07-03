@@ -3,7 +3,8 @@ node_modules
 .VSCodeCounter
 .next
 .vercel
-.application-description.md
+application-description.md
 cascades.sql
 DumpKowdb_wp.sql
 script.html
+notes.md

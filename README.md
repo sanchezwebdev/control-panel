@@ -1,4 +1,4 @@
-# KOW Dashboard Project README 
+# Knowledge Base Control Panel
 
 ## Overview
 
