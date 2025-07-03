@@ -1,0 +1,12 @@
+.credentials{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.credentials span:first-child {
+  font-weight: bold;
+}

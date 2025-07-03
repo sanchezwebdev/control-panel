@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.innerContainer {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.title {
+  margin: 20px 0;
+}
+
+.articleContent {
+  width: 100%;
+}
+
+.image {
+  float: right;
+  max-width: 350px;
+  border-radius: 5px;
+  margin: 0 0 20px 20px;
+}
+
+.paragraph {
+  margin-bottom: 1em;
+  text-align: justify;
+}

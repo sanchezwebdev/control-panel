@@ -1,0 +1,180 @@
+
+
+.header {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.input,
+.select {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input:focus,
+.select:focus {
+  outline: none;
+  border-color: #0070f3;
+  box-shadow: 0 0 0 2px rgba(0, 112, 243, 0.2);
+}
+
+.button {
+  background-color: #0070f3;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.branchControl {
+  margin-bottom: 1rem;
+}
+
+.branchInput {
+  border-left: 4px solid #0070f3;
+}
+
+.error{
+  color: red;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 2rem 1.5rem;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal p {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.modal button {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+}
+
+.modal button:hover {
+  background-color: #0059c1;
+}
+
+
+.button {
+  background-color: #0070f3;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.buttonRow .deleteButton, .deleteButton {
+  background-color: #f43f5e;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;  
+  box-shadow: 0 4px 10px rgba(229, 57, 53, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buttonRow .deleteButton:hover, .deleteButton:hover {
+  background-color: #e11d48;
+  transform: translateY(-2px);
+}
+
+.buttonRow .deleteButton:active, .deleteButton:active {
+  background-color: #b71c1c;
+  transform: scale(0.98);
+}
+
+.confirmDelete{
+  background-color: #f43f5e;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1em;
+  box-shadow: 0 4px 10px rgba(229, 57, 53, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
